@@ -24,8 +24,8 @@ user_message = input()
 print("Please now add your name as the sender: ")
 name_sender = input()
 
-# From the module I only import the year as date alone will be using also month and day.
-# By doing this we avoid "hardcoding" using a static year and then having the code obsolate 
+# From the module datetime I only used the year as date alone will be using also month and day.
+# By doing this we avoid "hardcoding" using a static year and then having the code static and obsolate 
 # example ---> age = 2024 - year_recipient
 current_year = datetime.date.today().year
 
