@@ -10,3 +10,12 @@ def calculateAge(birthDate):
      
 # Driver code 
 print(calculateAge(date(1997, 2, 3)), "years")
+
+
+
+
+def calculateAge(year_recipient):
+    today = date.today()
+    age = today.year - year_recipient
+ 
+    return age
